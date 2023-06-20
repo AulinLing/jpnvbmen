@@ -1,0 +1,140 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: "Century Gothic", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("about_homepage.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    box-sizing: border-box;
+  }
+  
+  #header {
+    background-color: #990000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .dot {
+    margin-bottom: 100 px;
+  }
+
+  #japan_circle {
+    margin-bottom: 100px;
+  }
+
+  #logo {
+    margin-right: 10px;
+  }
+  #logo img {
+    max-height: 68%;
+    max-width: 68%;
+  }
+  .navbar_square {
+    border-radius: 25px;
+  }
+
+  nav{
+      position:fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 2em;
+      z-index: 9;
+      transition: 0.7s;
+      color: #fff;
+  }
+  .brand {
+      font-size: 1.6em;
+  }
+
+  .container-inner{
+    align-items: center;
+  }
+
+
+  
+  nav .container ul {
+      width:100%;
+      margin: 01em;
+  }
+
+  nav .container ul:nth-child(2) {
+      text-align: right;
+  }
+
+  nav .container ul li {
+      display: inline-block;
+  }
+
+  nav a {
+      text-decoration: none;
+      font-size: 0.9em;
+      transition: 0.3em;
+      font-weight: 600;
+      color: #fff;
+  }
+
+  nav a:hover {
+    background-color: #fff;
+    color: #920000;
+    border-radius: 3px;
+  }
+  #navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+
+  
+  #navigation ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 5px 10px;
+  }
+  
+  #navigation ul li a:hover {
+    background-color: #fff;
+    color: #920000;
+    border-radius: 3px;
+  }
+  #footer {
+    background-color: #4b0000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: auto;
+  }
+@media screen and (max-width:800px) {
+    nav .container-inner{
+        display: none;
+    }
+    nav .container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .menu form {
+        display: none;
+    }
+}
+
+@media screen and (max-width:400px) {
+    html {
+        font-size: 13px;
+    }
+}
