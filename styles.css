@@ -40,6 +40,12 @@ body {
     background-color: rgb(255, 255, 255);
   }
 
+  .refersquare{
+    height: 810px;
+    width: 1750px;
+    background-color: rgb(255, 255, 255);
+  }
+
   #main-content {
     max-width: 800px;
     margin-bottom: 0 auto;
@@ -67,6 +73,7 @@ body {
     margin: 0;
     font-size: 28px;
   }
+
 
   .center {
     border: 5px solid;
